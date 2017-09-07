@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "webhook-wp",
+    "framework": "react",
+    "version": "1.0.0",
+    "libraryId": "c692cb1a-3d6a-43e1-8a3a-1ea1fd1836e0"
+  }
+}

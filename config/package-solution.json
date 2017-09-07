@@ -1,0 +1,11 @@
+{
+  "solution": {
+    "name": "webhook-wp-client-side-solution",
+    "id": "c692cb1a-3d6a-43e1-8a3a-1ea1fd1836e0",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/webhook-wp.sppkg"
+  }
+}

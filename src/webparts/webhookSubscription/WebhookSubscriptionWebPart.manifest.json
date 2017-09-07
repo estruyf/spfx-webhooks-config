@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "251aa6b6-12d8-4e20-bdac-dba704e8e1f7",
+  "alias": "WebhookSubscriptionWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "251aa6b6-12d8-4e20-bdac-dba704e8e1f7",
+    "group": { "default": "Under Development" },
+    "title": { "default": "WebhookSubscription" },
+    "description": { "default": "This web part can be used to manage webhook subscriptions." },
+    "iconImageUrl": "https://www.eliostruyf.com/wp-content/uploads/2017/05/webhook1600.png",
+    "properties": {}
+  }]
+}

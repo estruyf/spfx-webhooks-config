@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/webhookSubscription/WebhookSubscriptionWebPart.js",
+      "manifest": "./src/webparts/webhookSubscription/WebhookSubscriptionWebPart.manifest.json",
+      "outputPath": "./dist/webhook-subscription.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "webhookSubscriptionStrings": "webparts/webhookSubscription/loc/{locale}.js"
+  }
+}
