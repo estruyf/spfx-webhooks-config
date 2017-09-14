@@ -1,13 +1,18 @@
 {
-  "entries": [
-    {
-      "entry": "./lib/webparts/webhookSubscription/WebhookSubscriptionWebPart.js",
-      "manifest": "./src/webparts/webhookSubscription/WebhookSubscriptionWebPart.manifest.json",
-      "outputPath": "./dist/webhook-subscription.bundle.js"
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "webhook-subscription-bundle": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/webhookSubscription/WebhookSubscriptionWebPart.js",
+          "manifest": "./src/webparts/webhookSubscription/WebhookSubscriptionWebPart.manifest.json"
+        }
+      ]
     }
-  ],
-  "externals": {},
+  },
   "localizedResources": {
-    "webhookSubscriptionStrings": "webparts/webhookSubscription/loc/{locale}.js"
-  }
+    "webhookSubscriptionStrings": "lib/webparts/webhookSubscription/loc/{locale}.js"
+  },
+  "externals": {}
 }
